@@ -36,26 +36,13 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-xs-6 col-md-6">
-            <h6>Categories</h6>
+          <div class="col-12">
+            <h6>Categorías</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-6">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              <li><a class="text-secondary" id href="/">Inicio</a></li>
+              <li><a class="text-secondary" href="/comienza_reciclar">Comienza a reciclar</a></li>
+              <li><a class="text-secondary" href="/aportar_ya">Aporta ya!</a></li>
+              <li><a class="text-secondary" href="/acerca_de">Acerca de</a></li>
             </ul>
           </div>
         </div>
@@ -101,16 +88,11 @@ body {
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
+  padding-bottom: 1vh;
   letter-spacing:2px
 }
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
+.site-footer ul li a:hover{
+  color:#fff;
 }
 .footer-links
 {
@@ -119,16 +101,12 @@ body {
 }
 .footer-links li
 {
+  padding-top: 1vh;
   display:block
 }
 .footer-links a
 {
   color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
 }
 .footer-links.inline li
 {
@@ -204,10 +182,6 @@ body {
   -o-transition:all .2s linear;
   transition:all .2s linear
 }
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-}
 .social-icons.size-sm a
 {
   line-height:34px;
@@ -244,6 +218,11 @@ body {
   .logo-wp, .space{
     display: none;
   }
+}
+
+.footer-links a:hover
+{
+  text-decoration: none;
 }
 /* #nav {
   padding: 30px;
