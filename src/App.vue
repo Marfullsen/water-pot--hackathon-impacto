@@ -24,10 +24,10 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #b1cf5f;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: white;
 }
 </style>
