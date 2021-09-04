@@ -23,10 +23,13 @@
 
  <section class="contenedorMapa">
      <div class="mapaDiv">
+         <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1Y_rRDHYD9VBEVNz2LJIldKU-j4U" width="640" height="480"></iframe>
+     </div>
+     <div class="divImagenFinal">
+         <img class="imagenFinal" src="../assets/Tree-T-PEE2-2.jpg" alt="">
+         <p class="textoFinal">↑ Puntos de reciclaje Santiago chile aqui ↑ <br><br> Gracias a tus esfuerzos ayudarás al mar con los plasticos y ayudarás a el ahorro de agua dulce</p>
 
      </div>
-     <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1Y_rRDHYD9VBEVNz2LJIldKU-j4U" width="640" height="480"></iframe>
-     <img src="../assets/Tree-T-PEE2-2.jpg" alt="">
  </section>
 </template>
 
@@ -60,15 +63,34 @@
         }
 
     .imagenRecycla{
-        width: 15%;
+        width: 35%;
         max-width: 50%;
-        height: 40%;
+        height: 50%;
         max-height: 100%;
         border-radius: 25%;
         }
 
+    .contenedorMapa{
+        background-color: #73E2A7;
+        }
+
     .mapa{
-        border-radius: 60%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        border-radius: 50%;
+
+        }
+
+    .imagenFinal{
+        width: 40%;
+        height: 40%;
+        border-radius:10%;
+        }
+    .divImagenFinal{
+        display: flex;
+        }
+    .textoFinal{
+        font-size: 120%;
         }
 
 </style>
