@@ -43,12 +43,12 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../assets/wpb.png" class="t-wp d-block w-100" alt="...">
+                <img src="../assets/slider3.jpg" class="t-wp d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../assets/wpw.png" class="t-wp d-block w-100" alt="...">
+                <img src="../assets/slider4.jpg" class="t-wp d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
