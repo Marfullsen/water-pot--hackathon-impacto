@@ -7,10 +7,8 @@
       <div class="row">
         <div class="col-4">
         </div>
-        <div class="col-8 imagen-1">
-          <p class="txt">Hola</p>
+        <div class="col-8">
           <img class="img-1 img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
-
         </div>
       </div>
 
@@ -80,15 +78,17 @@ img{
   }
 
 main{
-  background-color: #def4c6;
+  background-color: #aecc8d;
 }
 .col-8{
   padding: 0;
   background: white;
 }
 
-.imagen-1{
-  clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+.texto{
+  background: url('../assets/nature-pattern-6.jpg');
+  display: flex;
+  align-items: center;
 }
 
 .col-4{
@@ -102,15 +102,16 @@ main{
 .col-12{
   background-color: #def4c6;
 }
-.row{
-  background: #1b512d;
-}
+
 .row img{
   max-height: 40vw;
 }
 
 .txt{
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container.fluid{
