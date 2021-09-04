@@ -5,42 +5,50 @@
   <main>
     <div class="container.fluid">
       <div class="row">
-        <div class="col-4">
+        <div class="vc col-lg-8 col-md-12 col-sm-12">
+          <h2>Francisco Marfull</h2>
+          <p> Un Capo</p>
         </div>
-        <div class="col-8">
-          <img class="img-1 img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-8 imagen-1">
-          <img class="img-1 img-fluid" src="../assets/orange-trees.jpg" alt="">
-        </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="img-index img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="img-index img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
         </div>
-        <div class="col-8 imagen-1">
-          <img class="img-1 img-fluid" src="../assets/orange-trees-2.jpg" alt="">
+        <div class="vo col-lg-8 col-md-12 col-sm-12">
+          <h2>Fabian Astorga</h2>
+          <p>El Negro</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-8 imagen-1">
-          <img class="img-1 img-fluid" src="../assets/leaves-1.jpg" alt="">
+        <div class="vc col-lg-8 col-md-12 col-sm-12">
+          <h2>Alvaro Morales</h2>
+          <p>El Bilingue</p>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="img-index img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
+        </div>
+      </div>
+     <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="img-index img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
+        </div>
+        <div class="vo col-lg-8 col-md-12 col-sm-12">
+          <h2>Heins Fuenzalida</h2>
+          <p>El de los diseños</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
+        <div class="vc col-lg-8 col-md-12 col-sm-12">
+          <h2>Gustavo Neira</h2>
+          <p>El mamadisimo</p>
         </div>
-        <div class="col-8 imagen-1">
-          <img class="img-1 img-fluid" src="../assets/peach-tree.jpg" alt="">
-
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="img-index img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
         </div>
       </div>
       <div class="container">
@@ -55,7 +63,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </main>
 </template>
@@ -80,41 +87,29 @@ img{
 main{
   background-color: #aecc8d;
 }
-.col-8{
-  padding: 0;
-  background: white;
-}
 
-.texto{
-  background: url('../assets/nature-pattern-6.jpg');
-  display: flex;
-  align-items: center;
-}
-
-.col-4{
-  padding:0;
-  background: rgb(18, 181, 18);
-  clip-path: circle(30% at 50% 50%);
-}
-.col-8:nth-of-type(2){
-  background-color: #def4c6;
-}
-.col-12{
-  background-color: #def4c6;
-}
-
-.row img{
-  max-height: 40vw;
-}
-
-.txt{
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container.fluid{
-  padding: 0;
-}
+p{
+    font-size: 3vh;
+    padding: 5vh 7vh;
+    font-family: 'Hind Vadodara', sans-serif;
+    letter-spacing: 0.4vh;
+  }
+  .vo{
+    background-color: #1c7c54;
+    color: #def4c6;
+  }
+  .vc{
+    background-color: #def4c6;
+    color: #1c7c54;
+  }
+  .col-lg-4{
+    padding:0;
+  }
+  .img-index{
+    padding:0;
+  }
+  .t-wp{
+    height: 428px;
+    width: 642px;
+  }
 </style>
