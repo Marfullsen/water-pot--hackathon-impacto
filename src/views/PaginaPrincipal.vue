@@ -3,13 +3,11 @@
     <div class="container.fluid">
       <div class="row">
         <div class="col-4">
-          <img class="img-index img-fluid" src="../assets/recycle.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/Tree-T-PEE2.jpg" alt="">
         </div>
         <div class="col-8">
           <h2>¿Qué Es?</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas distinctio adipisci sapiente. Quisquam odio veniam rem! Eveniet sequi, quia, totam nemo placeat error eum rerum quae ducimus quod quas adipisci.
-          Excepturi corrupti veritatis odit maiores, temporibus accusantium eos quibusdam consequatur quam eveniet architecto. Provident officiis natus earum culpa eveniet, fugiat, a sed consequatur accusantium iusto id quisquam dignissimos temporibus molestiae.
-          Eius obcaecati eligendi quo et optio deleniti nisi nemo incidunt vitae accusamus cum, ad quas blanditiis inventore eos mollitia esse tenetur, voluptas quod porro eveniet culpa. Ducimus natus nostrum cupiditate?</p>
+          <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado. El dispositivo se ubica en la base del árbol en cuestión.</p>
         </div>
       </div>
 
@@ -20,13 +18,13 @@
           Illum amet, repellat accusantium voluptates optio ut totam natus ullam pariatur quia delectus hic ea expedita cupiditate iste. Maiores fugiat impedit accusantium minima aut eaque alias fuga dolore odit harum!</p>
         </div>
         <div class="col-4">
-          <img class="img-index img-fluid" src="../assets/recycle.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/irrigation.jpg" alt="">
         </div>
       </div>
 
       <div class="row">
         <div class="col-4">
-          <img class="img-index img-fluid" src="../assets/recycle.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/climate-1.jpg" alt="">
         </div>
         <div class="col-8">
           <h2>¿Por qué?</h2>
@@ -103,7 +101,7 @@ export default {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   h2{
-    padding-top: 6vh;
+    padding-top: 4vh;
     font-size: 4vh;
   }
   p{
@@ -121,6 +119,9 @@ export default {
   .col-8:nth-of-type(2), .col-12{
     background-color: #def4c6;
     color: #1c7c54;
+  }
+  .col-12{
+    padding-bottom: 5vh;
   }
   .t-wp{
     height: 428px;
