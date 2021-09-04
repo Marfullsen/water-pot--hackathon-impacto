@@ -1,6 +1,51 @@
 <template>
   <main>
+    <div class="container.fluid">
+      <div class="row">
+        <div class="col-4">
+          <img class="img-1 img-fluid" src="../assets/recycle.jpg" alt="">
+        </div>
+        <div class="col-8">
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-8">
+        </div>
+        <div class="col-4">
+          <img class="img-1 img-fluid" src="../assets/recycle.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img class="img-1 img-fluid" src="../assets/recycle.jpg" alt="">
+        </div>
+        <div class="col-8">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-8">
+        </div>
+        <div class="col-4">
+          <img class="img-1 img-fluid" src="../assets/recycle.jpg" alt="">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <br><br>
+            <h2>Beneficios</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore reiciendis adipisci maxime voluptatibus unde. Sed repudiandae reprehenderit tempora quis quam. Hic est velit quibusdam voluptates minus quia unde nulla.
+            Quae nemo incidunt, tempora quo esse ex odio quibusdam facere, in ipsam nulla porro tempore aut itaque corrupti corporis placeat officiis! In voluptatem iure debitis distinctio voluptatum cupiditate vitae excepturi!
+            Ullam incidunt, dolorem corporis libero laudantium repellendus similique culpa, autem aliquam ut nam sed ipsa quis accusantium nostrum atque nihil iure consequatur tempora expedita quod eum? Aut id eius voluptate?</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -52,4 +97,19 @@ export default {
 </script>
 
 <style scoped>
+  main{
+    background-color: #def4c6;
+  }
+  .col-8{
+    background-color: #1c7c54 ;
+  }
+  .col-4{
+    padding:0;
+  }
+  .col-8:nth-of-type(2){
+    background-color: #def4c6;
+  }
+  .col-12{
+    background-color: #def4c6;
+  }
 </style>
