@@ -2,6 +2,9 @@
   <main>
     <div class="container.fluid">
       <div class="row">
+        <div id="bg-index" class="col-12">
+          <h1>Water Pot</h1>
+        </div>
         <div class="vc col-lg-8 col-md-12 col-sm-12">
           <h2>¿Qué Es?</h2>
           <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado. El dispositivo se ubica en la base del árbol en cuestión.</p>
@@ -101,6 +104,22 @@ export default {
   main{
     background-color: #def4c6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #bg-index{
+  background: url('../assets/orange-farm.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 92vh;
+  }
+  h1{
+    color: #F0F0F0;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 30vh;
+    font-size: 11vh;
+    font-weight: 700;
+    letter-spacing: 4vh;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px #A9A9A9;
   }
   h2{
     font-family: 'Fredoka One', cursive;
