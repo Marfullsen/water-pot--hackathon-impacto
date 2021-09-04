@@ -3,7 +3,7 @@
     <div class="container.fluid">
       <div class="row">
         <div class="col-4">
-          <img class="img-index img-fluid" src="../assets/Tree-T-PEE2.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/Tree-T-PEE2-2.jpg" alt="">
         </div>
         <div class="col-8">
           <h2>¿Qué Es?</h2>
@@ -14,8 +14,7 @@
       <div class="row">
         <div class="col-8">
           <h2>¿Para qué?</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tenetur unde reprehenderit minus nam fugiat saepe quia, quis eum quo provident facilis ipsam, molestias nihil similique delectus corrupti cumque nemo.
-          Illum amet, repellat accusantium voluptates optio ut totam natus ullam pariatur quia delectus hic ea expedita cupiditate iste. Maiores fugiat impedit accusantium minima aut eaque alias fuga dolore odit harum!</p>
+          <p>El Water Pot cumple muchas funciones, dentro de ellas. Optimizar el método de riego, esto lo hace gracias a una forma más ideal de riego, a través de goteo. Otra de sus funciones es protegerlos de temperaturas frías, ya qué también cumple el rol de un mini-invernadero.</p>
         </div>
         <div class="col-4">
           <img class="img-index img-fluid" src="../assets/irrigation.jpg" alt="">
@@ -105,8 +104,8 @@ export default {
     font-size: 4vh;
   }
   p{
-    padding-top: 4vh;
     font-size: 2vh;
+    padding: 5vh 20vh;
   }
   .col-8{
     background-color: #1c7c54 ;
