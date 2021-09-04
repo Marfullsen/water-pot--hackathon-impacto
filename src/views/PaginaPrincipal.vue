@@ -6,28 +6,28 @@
           <h1>Water Pot</h1>
         </div>
         <div class="vc col-lg-8 col-md-12 col-sm-12">
-          <h2>¿Qué Es?</h2>
-          <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado. El dispositivo se ubica en la base del árbol en cuestión.</p>
+          <h2>Sequias en Chile</h2>
+          <p></p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <img class="img-index img-fluid" src="../assets/Tree-T-PEE2-2.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/faucet-2.1.jpg" alt="">
         </div>
       </div>
 
       <div class="row">
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <img class="img-index img-fluid" src="../assets/irrigation.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/consumo.jpg" alt="">
         </div>
         <div class="vo col-lg-8 col-md-12 col-sm-12">
-          <h2>¿Para qué?</h2>
-          <p>El Water Pot cumple muchas funciones, dentro de ellas. Optimizar el método de riego, esto lo hace gracias a una forma más ideal de riego, a través de goteo. Otra de sus funciones es protegerlos de temperaturas frías, ya qué también cumple el rol de un mini-invernadero.</p>
+          <h2>Consumo de Agua</h2>
+          <p></p>
         </div>
       </div>
 
       <div class="row">
         <div class="vc col-lg-8 col-md-12 col-sm-12">
-          <h2>¿Por qué?</h2>
-          <p>Porque en métodos de riego convencionales se pierden cantidades sustanciales de recursos como agua, fertilizante y combustible para el bombeo de agua. Esto quiere decir que el motivo principal detrás de la idea del Water Pot es la escacez de agua a nivel global, específicamente en Chile y el desperdicio de recursos en general.</p>
+          <h2>Producto</h2>
+          <p></p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
           <img class="img-index img-fluid" src="../assets/climate-1.jpg" alt="">
