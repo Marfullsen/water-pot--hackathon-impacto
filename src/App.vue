@@ -36,9 +36,6 @@
 body {
   margin: 0;
 }
-/* body.highcontrast a, body.highcontrast2 a, body.highcontrast3 a {
-color: #8bfffb;
-} */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -51,6 +48,9 @@ color: #8bfffb;
 }
 #navbarNav{
   justify-content: center;
+}
+.logo-wp {
+  width: 30px;
 }
 @media (max-width: 768px){
   .logo-wp, .space{
