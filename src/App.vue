@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Inicio</router-link> |
+    <router-link to="/comienza_reciclar">Comienza a Reciclar</router-link> |
+    <router-link to="/aporta_ya">Aporta ya</router-link> |
+    <router-link to="/acerca_de">Acerca de</router-link>
   </div>
   <router-view/>
 </template>
