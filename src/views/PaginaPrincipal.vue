@@ -30,7 +30,7 @@
           <p></p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <img class="img-index img-fluid" src="../assets/climate-1.jpg" alt="">
+          <img class="img-index img-fluid" src="../assets/slider5.jpg" alt="">
         </div>
       </div>
 
