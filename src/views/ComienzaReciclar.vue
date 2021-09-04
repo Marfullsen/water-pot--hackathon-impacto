@@ -28,7 +28,6 @@
      <div class="divImagenFinal">
          <img class="imagenFinal" src="../assets/Tree-T-PEE2-2.jpg" alt="">
          <p class="textoFinal">↑ Puntos de reciclaje Santiago chile aqui ↑ <br><br> Gracias a tus esfuerzos ayudarás al mar con los plasticos y ayudarás a el ahorro de agua dulce</p>
-
      </div>
  </section>
 </template>
