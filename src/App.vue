@@ -1,8 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Inicio</router-link>
-    <router-link to="/comienza_reciclar">Comienza a Reciclar</router-link>
-    <router-link to="/aporta_ya">Aporta ya</router-link>
+    <router-link to="/">Inicio</router-link>&nbsp;
+    <router-link to="/comienza_reciclar">Comienza a Reciclar</router-link>&nbsp;
+    <router-link to="/aporta_ya">Aporta ya</router-link>&nbsp;
     <router-link to="/acerca_de">Acerca de</router-link>
   </div>
   <router-view />
