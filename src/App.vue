@@ -32,33 +32,33 @@
   </div> -->
   <router-view />
     <!-- Site footer -->
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
 
-          <div class="col-12">
-            <h6>Categorías</h6>
-            <ul class="footer-links">
-              <li><a class="text-secondary" id href="/">Inicio</a></li>
-              <li><a class="text-secondary" href="/comienza_reciclar">Comienza a reciclar</a></li>
-              <li><a class="text-secondary" href="/aportar_ya">Aporta ya!</a></li>
-              <li><a class="text-secondary" href="/acerca_de">Acerca de</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><img src="./assets/fb-logo.png" alt=""></a></li>
-              <li><a class="twitter" href="#"><img src="./assets/ig-logo-1.png" alt=""></a></li>
-              <li><a class="dribbble" href="#"><img src="./assets/twitter-logo-1.png" alt=""></a></li>
-            </ul>
-          </div>
+        <div class="col-12">
+          <h6>Categorías</h6>
+          <ul class="footer-links">
+            <li><a class="text-secondary" id href="/">Inicio</a></li>
+            <li><a class="text-secondary" href="/comienza_reciclar">Comienza a reciclar</a></li>
+            <li><a class="text-secondary" href="/aportar_ya">Aporta ya!</a></li>
+            <li><a class="text-secondary" href="/acerca_de">Acerca de</a></li>
+          </ul>
         </div>
       </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <ul class="social-icons">
+            <li><a class="logo-rrss" href="#"><img src="./assets/fb-logo.png" alt=""></a></li>
+            <li><a class="logo-rrss" href="#"><img src="./assets/ig-logo-1.png" alt=""></a></li>
+            <li><a class="logo-rrss" href="#"><img src="./assets/twitter-logo-1.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 </footer>
 </template>
 <style>
@@ -84,15 +84,12 @@ body {
 }
 .site-footer h6
 {
-  color:#fff;
+  color: #fff;
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
   padding-bottom: 1vh;
   letter-spacing:2px
-}
-.site-footer ul li a:hover{
-  color:#fff;
 }
 .footer-links
 {
@@ -115,16 +112,6 @@ body {
 .site-footer .social-icons
 {
   text-align:center;
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
 }
 .copyright-text
 {
@@ -167,20 +154,14 @@ body {
   font-weight:700;
   font-size:13px
 }
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
+.logo-rrss{
+  padding-right: 2vh;
+}
+.logo-rrss img{
+  width: 6vh;
+}
+.logo-rrss:last-child{
+  padding-right: none;
 }
 .social-icons.size-sm a
 {

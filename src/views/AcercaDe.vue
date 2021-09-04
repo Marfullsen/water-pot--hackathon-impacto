@@ -12,7 +12,7 @@
         <div class="col-lg-4 col-md-6 col-sm-6">
           <img class="img-index img-fluid" src="../assets/nature-pattern-6.jpg" alt="">
         </div>
-        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-48.82,-34.05 C169.58,162.33 444.98,63.65 539.22,215.62 L530.18,208.72 L-108.63,622.20 Z" style="stroke: none; fill: #aecc8d;"></path></svg></div>
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-48.82,-34.05 C169.58,162.33 444.98,63.65 539.22,215.62 L530.18,208.72 L-108.63,622.20 Z" style="stroke: none; fill: #1c7c54;"></path></svg></div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -67,7 +67,7 @@
   </main>
 </template>
 
-<style scope>
+<style scoped>
 body{
   background-color: #1c7c54;
 }
@@ -81,9 +81,6 @@ h1{
     text-transform: uppercase;
     text-shadow: 5px 5px 8px #A9A9A9;
   }
-img{
-  width: 100%;
-}
 
 .acerca-de{
   background: url('../assets/water-drop.jpg');
@@ -91,6 +88,10 @@ img{
   background-size: cover;
   min-height: 92vh;
   }
+
+.img-index{
+  margin-top: 8vh;
+}
 
 main{
   background-color: #def4c6;
