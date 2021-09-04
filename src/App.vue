@@ -65,10 +65,9 @@
         <div class="row">
           <div class="col-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="facebook" href="#"><img src="./assets/fb-logo.png" alt=""></a></li>
+              <li><a class="twitter" href="#"><img src="./assets/ig-logo.png" alt=""></a></li>
+              <li><a class="dribbble" href="#"><i class="./assets/instagram-logo.png"></i></a></li>
             </ul>
           </div>
         </div>
