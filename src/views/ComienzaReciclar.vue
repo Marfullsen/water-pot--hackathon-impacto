@@ -29,7 +29,7 @@
                     <p>Ya sabes, aportar monetariamente no es la única forma de ayudarnos y además de ayudarnos le haces un gran favor al medio ambiente. Recuerda, el cambio parte por uno mismo.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img id="last-img" class="img-fluid" src="../assets/Tree-T-PEE2-2.jpg" alt="">
+                    <img id="last-img" class="img-fluid" src="../assets/together-1.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
     #last-img{
         padding-top: 1vh;
         padding-bottom: 2vh;
-        width: 60vh;
+        width: 70vh;
         border-radius: 5%;
     }
     p{
