@@ -5,7 +5,7 @@
     <router-link to="/aporta_ya">Aporta ya</router-link> |
     <router-link to="/acerca_de">Acerca de</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
