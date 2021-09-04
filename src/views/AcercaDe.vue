@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>Acerca de nosotros</h1>
+    <h1>¿Quienes somos?</h1>
   </div>
 </template>
