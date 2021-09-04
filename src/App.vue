@@ -66,8 +66,8 @@
           <div class="col-12">
             <ul class="social-icons">
               <li><a class="facebook" href="#"><img src="./assets/fb-logo.png" alt=""></a></li>
-              <li><a class="twitter" href="#"><img src="./assets/ig-logo.png" alt=""></a></li>
-              <li><a class="dribbble" href="#"><i class="./assets/instagram-logo.png"></i></a></li>
+              <li><a class="twitter" href="#"><img src="./assets/ig-logo-1.png" alt=""></a></li>
+              <li><a class="dribbble" href="#"><img src="./assets/twitter-logo-1.png" alt=""></a></li>
             </ul>
           </div>
         </div>
@@ -207,7 +207,6 @@ body {
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
   color:#fff;
-  background-color:#29aafe
 }
 .social-icons.size-sm a
 {
@@ -215,22 +214,6 @@ body {
   height:34px;
   width:34px;
   font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
 }
 @media (max-width:767px)
 {

@@ -1,9 +1,4 @@
 <template>
-    <div>
-        <h3>asd</h3>
-        <h2>asdasdasdsad</h2>
-    </div>
-
     <section class="contenedor recicla">
             <div class="contenedor Servicios">
                 <h2 class="titulo">Recicla ¡YA!</h2>
@@ -22,19 +17,19 @@
  style="stroke: none; fill: #1c7c54 ;"></path></svg></div>
 
  <section class="contenedorMapa">
-     <div class="mapaDiv">
-         <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1Y_rRDHYD9VBEVNz2LJIldKU-j4U" width="640" height="480"></iframe>
-     </div>
-     <div class="divImagenFinal">
-         <img class="imagenFinal" src="../assets/Tree-T-PEE2-2.jpg" alt="">
-         <p class="textoFinal">↑ Puntos de reciclaje Santiago chile aqui ↑ <br><br> Gracias a tus esfuerzos ayudarás al mar con los plasticos y ayudarás a el ahorro de agua dulce</p>
+    <div class="mapaDiv">
+        <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1Y_rRDHYD9VBEVNz2LJIldKU-j4U" width="640" height="480"></iframe>
+    </div>
+    <div class="divImagenFinal">
+        <img class="imagenFinal" src="../assets/Tree-T-PEE2-2.jpg" alt="">
+        <p class="textoFinal">↑ Puntos de reciclaje Santiago chile aqui ↑ <br><br> Gracias a tus esfuerzos ayudarás al mar con los plasticos y ayudarás a el ahorro de agua dulce</p>
+    </div>
 
-     </div>
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #1c7c54;"></path></svg></div>
  </section>
 </template>
 
 <style scope>
-
     .contenedor{
             padding: 15px;
             height: 500px;
@@ -83,7 +78,9 @@
     .imagenFinal{
         width: 40%;
         height: 40%;
-        border-radius:10%;
+        border-radius:5%;
+        padding-bottom: 3vh;
+        padding-left: 3vh;
         }
     .divImagenFinal{
         display: flex;
