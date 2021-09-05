@@ -29,7 +29,7 @@
           <h2>Producto</h2>
           <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado, ubicandose en la base del arbol</p>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-4 col-md-12 col-sm-12" id="img-wrap-3">
           <img class="img-index borde-1 img-fluid" src="../assets/slider5.jpg" alt="">
         </div>
       </div>
@@ -180,7 +180,7 @@ export default {
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
   }
-  #img-wrap-2{
+  #img-wrap-2, #img-wrap-3{
     background-color: #b1e775;
   }
 </style>
