@@ -11,6 +11,8 @@ Sitio web que permitirá adquirir el dispositivo para ahorrar agua en cosechas, 
 ## ¿Qué paleta se utilizó?
 La paleta está hecha con distintos tonos de verde.
 
+[![Paleta-colores-verdes](./docs/img/paleta-colores-verdes.png)](https://coolors.co/)
+
 ## Instalación del proyecto.
 ```
 npm install
