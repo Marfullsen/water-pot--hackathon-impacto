@@ -7,18 +7,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <router-link to="/" class="nav-link" aria-current="page">Inicio</router-link>
+              <router-link to="/" class="nav-link" aria-current="page">{{idioma[idiomaSeleccionado].inicio}}</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/comienza_reciclar" class="nav-link" >Comienza a reciclar</router-link>
+              <router-link to="/comienza_reciclar" class="nav-link" >{{idioma[idiomaSeleccionado].Comienza_a_reciclar}}</router-link>
             </li><div class="space">&nbsp;&nbsp;&nbsp;</div>
             <router-link to="/" class="logo-wp navbar-brand" >
             <img class="logo" src="./assets/logo-water-pot.png" alt="" width="30"></router-link>
             <li class="nav-item">
-              <router-link to="/aportar_ya" class="nav-link">Aporta ya!</router-link>
+              <router-link to="/aportar_ya" class="nav-link">{{idioma[idiomaSeleccionado].Aporta_ya}}</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/acerca_de" class="nav-link" >Acerca de</router-link>
+              <router-link to="/acerca_de" class="nav-link" >{{idioma[idiomaSeleccionado].Acerca_de}}</router-link>
             </li>
             <li>
               <CambiarIdioma @clicked="onClickChild"></CambiarIdioma>
@@ -27,12 +27,6 @@
         </div>
       </div>
     </nav>
-  <!-- <div id="nav">
-    <router-link to="/">Inicio</router-link>&nbsp;
-    <router-link to="/comienza_reciclar">Comienza a Reciclar</router-link>&nbsp;
-    <router-link to="/aporta_ya">Aporta ya</router-link>&nbsp;
-    <router-link to="/acerca_de">Acerca de</router-link>
-  </div> -->
   <router-view />
     <!-- Site footer -->
   <footer class="site-footer">
@@ -71,6 +65,33 @@ import CambiarIdioma from '@/components/CambiarIdioma.vue'
 export default {
   components: {
     CambiarIdioma
+  },
+  data () {
+    return {
+      idiomaSeleccionado: this.$idiomaGlobal,
+      idioma: {
+        spanish: {
+          inicio: 'Inicio',
+          Comienza_a_reciclar: 'Comienza a reciclar',
+          Aporta_ya: '¡Aporta ya!',
+          Acerca_de: '¿Quienes somos?'
+        },
+        english: {
+          inicio: 'Home',
+          Comienza_a_reciclar: 'Start Recycling',
+          Aporta_ya: 'Contribute',
+          Acerca_de: 'About Us'
+        }
+      }
+    }
+  },
+  methods: {
+    onClickChild (value) {
+      this.idiomaSeleccionado = value
+    }
+  },
+  mounted () {
+    this.idiomaSeleccionado = this.$root.$idiomaGlobal
   }
 }
 </script>
@@ -221,18 +242,5 @@ body {
   text-decoration: none;
   color: #dcdcdc;
 }
-/* #nav {
-  padding: 30px;
-  background: #333;
-}
 
-#nav a {
-  font-weight: bold;
-  color: #9a9da0;
-  text-decoration: none;
-}
-
-#nav a.router-link-exact-active {
-  color: #fff;
-} */
 </style>
