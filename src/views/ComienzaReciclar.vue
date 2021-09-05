@@ -6,7 +6,7 @@
                 <img class="img-cr img-fluid" src="../assets/recycle.jpg" alt=""></div>
                 <div class="col-lg-6">
                     <h2>Recicla Ya!</h2>
-                    <p>Si no puedes realizar un aporte monetario no hay problema! Puedes aportar a la causa reciclando. El Water Pot está construido a base de plástico reciclado, así que puedes aportar a la causa y además al medio ambiente solo reciclando.</p>
+                    <p>Si no puedes realizar un aporte monetario no hay problema! Puedes aportar a la causa reciclando. El Water Pot está construido a base de plástico reciclado, así que puedes ayudar mucho y además al medio ambiente solo reciclando.</p>
                 </div>
             </div>
         </div>
