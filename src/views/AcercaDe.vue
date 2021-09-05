@@ -78,6 +78,7 @@
     transition: all 180ms linear;
     color: #dcdcdc;
     text-shadow: 5px 5px 8px #fff;
+    font-size: 11.5vh;
   }
   h1:hover:before{
     transition: all 200ms linear;
