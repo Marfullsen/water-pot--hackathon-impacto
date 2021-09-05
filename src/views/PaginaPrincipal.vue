@@ -3,7 +3,7 @@
     <div class="container.fluid">
       <div class="row">
         <div id="bg-index" class="col-12">
-          <h1>Water Pot</h1>
+          <a id="wp" href="#producto"><h1>Water Pot</h1></a>
         </div>
         <div class="vc col-lg-8 col-md-12 col-sm-12">
           <h2>Sequias en Chile</h2>
@@ -15,7 +15,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-4 col-md-12 col-sm-12" id="img-wrap-2">
           <img class="img-index borde-2 img-fluid" src="../assets/consumo3.jpg" alt="">
         </div>
         <div class="vo col-lg-8 col-md-12 col-sm-12">
@@ -24,7 +24,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="producto">
         <div class="vc col-lg-8 col-md-12 col-sm-12">
           <h2>Producto</h2>
           <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado, ubicandose en la base del arbol</p>
@@ -65,13 +65,13 @@
         </div>
         <div class="vo col-lg-8 col-md-12 col-sm-12">
           <h2>Tipo de Water Pot</h2>
-          <br>
+          <br><br>
           <p>• Blanco: Water Pot orientado a árboles de climas fríos. <br><br>
             • Negro: Water Pot orientado a árboles de climas cálidos.
           </p>
         </div>
       </div>
-      <div class="container">
+      <div class="container.fluid">
         <div class="row">
           <div class="vc col-12">
             <br><br>
@@ -119,7 +119,10 @@ export default {
     font-weight: 700;
     letter-spacing: 4vh;
     text-transform: uppercase;
-    text-shadow: 5px 5px 8px #A9A9A9;
+    text-shadow: 5px 5px 8px #404040;
+  }
+  #wp{
+    text-decoration: none;
   }
   h2{
     font-family: 'Fredoka One', cursive;
@@ -127,14 +130,25 @@ export default {
     /* font-family: 'Staatliches', cursive; */
     /* font-family: 'Russo One', sans-serif; */
     padding-top: 7vh;
-    font-size: 4.5vh;
+    font-size: 3.5vh;
     font-weight: 700;
     letter-spacing: 1.3vh;
     text-transform: uppercase;
   }
+  h1:hover{
+    transition: all 180ms linear;
+    color: #F0F0F0;
+    text-shadow: 5px 5px 8px #fff;
+  }
+  h1:hover:before{
+    transition: all 200ms linear;
+    color: #F0F0F0;
+    text-shadow: 5px 5px 8px #fff;
+  }
   p{
     font-size: 3.5vh;
-    padding: 10vh 7vh;
+    padding: 1vh 7vh;
+    padding-bottom: 6vh;
     font-family: 'Hind Vadodara', sans-serif;
     letter-spacing: 0.4vh;
   }
@@ -163,5 +177,8 @@ export default {
   .borde-2{
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
+  }
+  #img-wrap-2{
+    background-color: #b1e775;
   }
 </style>
