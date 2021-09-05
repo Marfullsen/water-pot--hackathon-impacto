@@ -7,30 +7,30 @@
         </div>
         <div class="vc col-lg-8 col-md-12 col-sm-12">
           <h2>Sequias en Chile</h2>
-          <p></p>
+          <p>El 72% de la superficie de Chile sufre de sequía en algún grado. 156 de las 345 comunas del país presentan riesgo de desertificación</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <img class="img-index img-fluid" src="../assets/faucet-2.1.jpg" alt="">
+          <img class="img-index borde-1 img-fluid" src="../assets/faucet-2.1.jpg" alt="">
         </div>
       </div>
 
       <div class="row">
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <img class="img-index img-fluid" src="../assets/consumo.jpg" alt="">
+          <img class="img-index borde-2 img-fluid" src="../assets/consumo3.jpg" alt="">
         </div>
         <div class="vo col-lg-8 col-md-12 col-sm-12">
           <h2>Consumo de Agua</h2>
-          <p></p>
+          <p>El sector agrícola es el mayor usuario de agua consuntiva en Chile con un 72%, seguido por el agua potable, consumo industrial y uso minero, con el 12%, 7% y 4%, respectivamente</p>
         </div>
       </div>
 
       <div class="row">
         <div class="vc col-lg-8 col-md-12 col-sm-12">
           <h2>Producto</h2>
-          <p></p>
+          <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado, ubicandose en la base del arbol</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <img class="img-index img-fluid" src="../assets/climate-1.jpg" alt="">
+          <img class="img-index borde-1 img-fluid" src="../assets/slider5.jpg" alt="">
         </div>
       </div>
 
@@ -43,12 +43,12 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../assets/slider3.jpg" class="t-wp d-block w-100" alt="...">
+                <img src="../assets/slider7.jpg" class="t-wp d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../assets/slider4.jpg" class="t-wp d-block w-100" alt="...">
+                <img src="../assets/slider6.jpg" class="t-wp d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
@@ -126,15 +126,15 @@ export default {
     /* font-family: 'Righteous', cursive; */
     /* font-family: 'Staatliches', cursive; */
     /* font-family: 'Russo One', sans-serif; */
-    padding-top: 6vh;
-    font-size: 4vh;
+    padding-top: 7vh;
+    font-size: 4.5vh;
     font-weight: 700;
     letter-spacing: 1.3vh;
     text-transform: uppercase;
   }
   p{
-    font-size: 3vh;
-    padding: 5vh 7vh;
+    font-size: 3.5vh;
+    padding: 10vh 7vh;
     font-family: 'Hind Vadodara', sans-serif;
     letter-spacing: 0.4vh;
   }
@@ -155,5 +155,13 @@ export default {
   .t-wp{
     height: 428px;
     width: 642px;
+  }
+  .borde-1{
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+  }
+  .borde-2{
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
   }
 </style>

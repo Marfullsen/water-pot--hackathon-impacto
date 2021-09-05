@@ -1,43 +1,34 @@
 <template>
-  <div>
-    <h1>¿Cómo puedo aportar?</h1>
-    <h2 v-text="idioma[idiomaSeleccionado].titulo"></h2>
-    <h3>{{idiomaSeleccionado}}</h3>
-    <CambiarIdioma @clicked="onClickChild"></CambiarIdioma>
-  </div>
+  <main>
+    <div class="containerfluid">
+      <div class="row">
+        <div class="drought-img col-9"></div>
+      </div>
+      <div class="row">
+        <div class="recycle-img col-12"></div>
+      </div>
+    </div>
+  </main>
 </template>
 
 <script>
-import CambiarIdioma from '@/components/CambiarIdioma.vue'
+// @ is an alias to /src
 
 export default {
-  components: {
-    CambiarIdioma
-  },
-  data () {
-    return {
-      idiomaSeleccionado: this.$idiomaGlobal,
-      idioma: {
-        spanish: {
-          titulo: '¿Cómo puedo aportar?'
-        },
-        english: {
-          titulo: 'How can I help?'
-        }
-      }
-    }
-  },
-  methods: {
-    onClickChild (value) {
-      this.idiomaSeleccionado = value
-    }
-  },
-  mounted () {
-    this.idiomaSeleccionado = this.$root.$idiomaGlobal
-  }
+  name: 'AportaYa'
 }
 </script>
-
-<style>
-
+<style scoped>
+  .drought-img{
+    background: url('../assets/climate-7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 92vh;
+  }
+  .recycle-img{
+    background: url('../assets/recycle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 92vh;
+  }
 </style>
