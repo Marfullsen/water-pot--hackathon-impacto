@@ -56,6 +56,34 @@
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  name: 'AcercaDe',
+  data () {
+    return {
+      idiomaSeleccionado: this.$idiomaGlobal,
+      idioma: {
+        spanish: {
+          titulo: '¿Cómo puedo aportar?'
+        },
+        english: {
+          titulo: 'How can I help?'
+        }
+      }
+    }
+  },
+  methods: {
+    onClickChild (value) {
+      this.idiomaSeleccionado = value
+    }
+  },
+  mounted () {
+    this.idiomaSeleccionado = this.$root.$idiomaGlobal
+  }
+}
+</script>
+
 <style scoped>
   .container{
     background-color: #def4c6;

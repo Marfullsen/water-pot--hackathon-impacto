@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img @click="cambiarIdioma" :src="rutaBandera" alt="Bandera idioma">
+    <img class="bandera" @click="cambiarIdioma" :src="rutaBandera" alt="Bandera idioma">
   </div>
 </template>
 
@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style>
-button {
-  padding: 1em;
+.bandera {
+  width: 30px;
 }
 </style>

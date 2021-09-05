@@ -15,12 +15,32 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: 'AportaYa'
+  name: 'AportaYa',
+  data () {
+    return {
+      idiomaSeleccionado: this.$idiomaGlobal,
+      idioma: {
+        spanish: {
+          titulo: '¿Cómo puedo aportar?'
+        },
+        english: {
+          titulo: 'How can I help?'
+        }
+      }
+    }
+  },
+  methods: {
+    onClickChild (value) {
+      this.idiomaSeleccionado = value
+    }
+  },
+  mounted () {
+    this.idiomaSeleccionado = this.$root.$idiomaGlobal
+  }
 }
 </script>
+
 <style scoped>
   main{
     background-color: #1b512d;
