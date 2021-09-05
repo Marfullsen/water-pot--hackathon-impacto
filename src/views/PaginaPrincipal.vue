@@ -109,12 +109,13 @@ export default {
   background: url('../assets/orange-farm.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 92vh;
+  background-position: center center;
+  min-height: 900px;
   }
   h1{
     color: #F0F0F0;
     font-family: 'Russo One', sans-serif;
-    padding-top: 30vh;
+    padding-top: 35vh;
     font-size: 11vh;
     font-weight: 700;
     letter-spacing: 4vh;

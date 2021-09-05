@@ -2,10 +2,10 @@
   <main>
     <div class="container.fluid">
       <div class="acerca-de">
-          <h1>Nuestro equipo</h1>
+          <a href="#integrantes" id="equipo"><h1>Nuestro equipo</h1></a>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row" id="integrantes">
           <div class="integ col-lg-6 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
               <img src="" class="card-img-top" alt="...">
@@ -60,23 +60,30 @@
     </div>
   </main>
 </template>
-
 <style scoped>
-
   .container{
     background-color: #def4c6;
   }
   h1{
-      color: #F0F0F0;
+      color: #dcdcdc;
       font-family: 'Russo One', sans-serif;
       padding-top: 35vh;
       font-size: 11vh;
       font-weight: 700;
       letter-spacing: 4vh;
       text-transform: uppercase;
-      text-shadow: 5px 5px 8px #A9A9A9;
+      text-shadow: 5px 5px 8px #404040;
     }
-
+  h1:hover{
+    transition: all 180ms linear;
+    color: #dcdcdc;
+    text-shadow: 5px 5px 8px #fff;
+  }
+  h1:hover:before{
+    transition: all 200ms linear;
+    color: #dcdcdc;
+    text-shadow: 5px 5px 8px #fff;
+  }
   h2{
     font-family: 'Fredoka One', cursive;
     text-transform: uppercase;
@@ -86,7 +93,8 @@
     background: url('../assets/water-drop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 92vh;
+    background-position: center center;
+    min-height: 900px;
     }
 
   .integ{
@@ -122,5 +130,19 @@
 
   .img-index{
     border-radius: 50%;
+  }
+  #equipo{
+    text-decoration: none;
+  }
+  @media (max-width:575.98px){
+    h1{
+      font-size: 7vh;
+    }
+  }
+  #btn1{
+    font-size: 4vh;
+    margin-top: 40vh;
+    margin-right: 4vh;
+    padding: 1vh 1vh;
   }
 </style>
