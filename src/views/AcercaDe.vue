@@ -11,7 +11,7 @@
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Francisco Marfull</h2>
-                <p class="card-text">Fullstack Developer</p>
+                <p class="card-text">Desarrollador Fullstack</p>
               </div>
             </div>
           </div>
@@ -20,7 +20,7 @@
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Fabián Astorga</h2>
-                <p class="card-text">Fullstack Developer</p>
+                <p class="card-text">Desarrollador Backend </p>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Álvaro Morales</h2>
-                <p class="card-text">Fullstack Developer</p>
+                <p class="card-text">Analista Programador</p>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Gustavo Neira</h2>
-                <p class="card-text">Fullstack Developer</p>
+                <p class="card-text">Desarrollador Frontend</p>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Heins Fuenzalida</h2>
-                <p class="card-text">Fullstack Developer</p>
+                <p class="card-text">Diseñador</p>
               </div>
             </div>
           </div>
