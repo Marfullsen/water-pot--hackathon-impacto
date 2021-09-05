@@ -20,7 +20,7 @@
             <li class="nav-item">
               <router-link to="/acerca_de" class="nav-link" >{{idioma[idiomaSeleccionado].Acerca_de}}</router-link>
             </li>
-            <li>
+            <li style="display: flex; align-items: center;">
               <CambiarIdioma @clicked="onClickChild"></CambiarIdioma>
             </li>
           </ul>
