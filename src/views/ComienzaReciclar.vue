@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                <img class="img-fluid" src="../assets/recycle.jpg" alt=""></div>
+                <img class="img-cr img-fluid" src="../assets/recycle.jpg" alt=""></div>
                 <div class="col-lg-6">
                     <h2>Recicla Ya!</h2>
                     <p>Si no puedes realizar un aporte monetario no hay problema! Puedes aportar a la causa reciclando. El Water Pot está construido a base de plástico reciclado, así que puedes aportar a la causa y además al medio ambiente solo reciclando.</p>
@@ -29,7 +29,7 @@
                     <p>Ya sabes, aportar monetariamente no es la única forma de ayudarnos y además de ayudarnos le haces un gran favor al medio ambiente. Recuerda, el cambio parte por uno mismo.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img id="last-img" class="img-fluid" src="../assets/together-1.jpg" alt="">
+                    <img class="img-cr img-fluid" src="../assets/together-1.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -44,13 +44,6 @@
              <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150"
         preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
         style="stroke: none; fill: #1c7d55"></path></svg></div>
-     <div class="divImagenFinal">
-         <div class="divImagenFinal2">
-
-         <img class="imagenFinal" src="../assets/Tree-T-PEE2-2.jpg" alt="">
-         </div>
-         <p class="textoFinal">↑ Puntos de reciclaje Santiago chile aqui ↑ <br><br> Gracias a tus esfuerzos ayudarás al mar con los plasticos y ayudarás a el ahorro de agua dulce</p>
-     </div>
  </section>
 </template>
 
@@ -76,20 +69,19 @@
         letter-spacing: 1vh;
         text-transform: uppercase;
     }
-    .img-fluid{
+    /* .img-fluid{
+        padding-top: 13vh;
+        width: 60vh;
+        border-radius: 5%;
+    } */
+    .img-cr{
         padding-top: 13vh;
         width: 60vh;
         border-radius: 5%;
     }
-    #last-img{
-        padding-top: 1vh;
-        padding-bottom: 2vh;
-        width: 70vh;
-        border-radius: 5%;
-    }
     p{
         font-size: 3vh;
-        padding: 5vh 7vh;
+        padding: 9vh 7vh;
         font-family: 'Hind Vadodara', sans-serif;
         letter-spacing: 0.4vh;
         color: #73E2A7;
@@ -103,14 +95,10 @@
         }
     .mapa{
         padding-top: 3vh;
-        border-radius: 20%;
+        border-radius: 15%;
         }
     .divImagenFinal{
         background-color: #1c7c54;
-    }
-    .imagenFinal{
-        height: 70vh;
-        border-radius: 10%;
     }
 
 </style>
