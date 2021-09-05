@@ -5,8 +5,8 @@
           <a href="#integrantes" id="equipo"><h1>Nuestro equipo</h1></a>
       </div>
       <div class="container">
-        <div class="row" id="integrantes">
-          <div class="integ col-lg-6 col-md-6 col-sm-12">
+        <div class="row justify-content-center" id="integrantes">
+          <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
@@ -15,7 +15,7 @@
               </div>
             </div>
           </div>
-          <div class="integ col-lg-6 col-md-6 col-sm-12">
+          <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
@@ -24,9 +24,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="integ col-lg-6 col-md-6 col-sm-12">
+          <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
@@ -35,7 +33,7 @@
               </div>
             </div>
           </div>
-          <div class="integ col-lg-6 col-md-6 col-sm-12">
+          <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
@@ -44,9 +42,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="integ col-12">
+          <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
               <img src="" class="card-img-top" alt="...">
               <div class="card-body">
@@ -97,16 +93,12 @@
     background-position: center center;
     min-height: 900px;
     }
-
-  .integ{
-    padding: 5vh 15vh;
-  }
   .card{
     background-color: #1c7c54;
     color: #def4c6;
   }
   .row{
-    padding: 2vh;
+    padding-bottom: 2vh;
   }
   main{
     background-color: #def4c6;
@@ -135,15 +127,23 @@
   #equipo{
     text-decoration: none;
   }
-  @media (max-width:575.98px){
-    h1{
-      font-size: 7vh;
-    }
+  .integ{
+    padding-bottom: 2vh;
   }
-  #btn1{
-    font-size: 4vh;
-    margin-top: 40vh;
-    margin-right: 4vh;
-    padding: 1vh 1vh;
+  @media (max-width:768px){
+  h1{
+    font-size: 8vh;
+  }
+  }
+  h1:hover{
+    font-size: 11.5vh;
+  }
+  @media (max-width:1200px){
+  h1{
+    font-size: 8vh;
+  }
+  h1:hover{
+    font-size: 9.5vh;
+  }
   }
 </style>

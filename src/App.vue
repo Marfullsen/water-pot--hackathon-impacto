@@ -39,13 +39,13 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-12">
+        <div class="col-12" id="categ">
           <h6>Categorías</h6>
           <ul class="footer-links">
-            <li><a class="text-secondary" id href="/">Inicio</a></li>
-            <li><a class="text-secondary" href="/comienza_reciclar">Comienza a reciclar</a></li>
-            <li><a class="text-secondary" href="/aportar_ya">Aporta ya!</a></li>
-            <li><a class="text-secondary" href="/acerca_de">Acerca de</a></li>
+            <li><a class="ft-item" href="/">Inicio</a></li>
+            <li><a class="ft-item" href="/comienza_reciclar">Comienza a reciclar</a></li>
+            <li><a class="ft-item" href="/aportar_ya">Aporta ya!</a></li>
+            <li><a class="ft-item" href="/acerca_de">Acerca de</a></li>
           </ul>
         </div>
       </div>
@@ -214,10 +214,12 @@ body {
     display: none;
   }
 }
-
-.footer-links a:hover
-{
+.ft-item{
   text-decoration: none;
+}
+.ft-item:hover{
+  text-decoration: none;
+  color: #dcdcdc;
 }
 /* #nav {
   padding: 30px;
