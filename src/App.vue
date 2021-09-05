@@ -20,6 +20,9 @@
             <li class="nav-item">
               <router-link to="/acerca_de" class="nav-link" >Acerca de</router-link>
             </li>
+            <li>
+              <CambiarIdioma @clicked="onClickChild"></CambiarIdioma>
+            </li>
           </ul>
         </div>
       </div>
@@ -61,6 +64,17 @@
     </div>
 </footer>
 </template>
+
+<script>
+import CambiarIdioma from '@/components/CambiarIdioma.vue'
+
+export default {
+  components: {
+    CambiarIdioma
+  }
+}
+</script>
+
 <style>
 body {
   margin: 0;
