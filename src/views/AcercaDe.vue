@@ -8,7 +8,7 @@
         <div class="row justify-content-center" id="integrantes">
           <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
-              <img src="" class="card-img-top" alt="...">
+              <img src="../assets/marfull.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Francisco Marfull</h2>
                 <p class="card-text">Desarrollador Fullstack</p>
@@ -17,7 +17,7 @@
           </div>
           <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
-              <img src="" class="card-img-top" alt="...">
+              <img src="../assets/ociko.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Fabián Astorga</h2>
                 <p class="card-text">Desarrollador Backend </p>
@@ -26,7 +26,7 @@
           </div>
           <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
-              <img src="" class="card-img-top" alt="...">
+              <img src="../assets/alvaro.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Álvaro Morales</h2>
                 <p class="card-text">Analista Programador</p>
@@ -35,7 +35,7 @@
           </div>
           <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
-              <img src="" class="card-img-top" alt="...">
+              <img src="../assets/gustavo.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Gustavo Neira</h2>
                 <p class="card-text">Desarrollador Frontend</p>
@@ -44,7 +44,7 @@
           </div>
           <div class="integ col-lg-4 col-md-6 col-sm-12">
             <div class="card" style="width: 20rem;">
-              <img src="" class="card-img-top" alt="...">
+              <img src="../assets/hasen.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Heins Fuenzalida</h2>
                 <p class="card-text">Diseñador</p>
