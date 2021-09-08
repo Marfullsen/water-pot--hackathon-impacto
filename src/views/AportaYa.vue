@@ -2,13 +2,13 @@
   <main>
       <div class="row">
         <div class="col-12 d-flex justify-content-center align-items-center" id="drought-img">
-        <router-link to="#" id="dona"><h2>Haz tu aporte</h2></router-link>
+        <router-link to="#" id="dona"><h2 v-text="idioma[idiomaSeleccionado].titulo"></h2></router-link>
 
         </div>
       </div>
       <div class="row">
         <div class="col-12 d-flex justify-content-center align-items-center" id="recycle-img">
-          <router-link to="/comienza_reciclar" id="recicla"><h2>Recicla ya!</h2></router-link>
+          <router-link to="/comienza_reciclar" id="recicla"><h2 v-text="idioma[idiomaSeleccionado].titulo2"></h2></router-link>
         </div>
       </div>
   </main>
@@ -22,10 +22,12 @@ export default {
       idiomaSeleccionado: this.$idiomaGlobal,
       idioma: {
         spanish: {
-          titulo: '¿Cómo puedo aportar?'
+          titulo: '¿Cómo puedo aportar?',
+          titulo2: 'Recicla ya!'
         },
         english: {
-          titulo: 'How can I help?'
+          titulo: 'How can I help?',
+          titulo2: 'Recycle now!'
         }
       }
     }

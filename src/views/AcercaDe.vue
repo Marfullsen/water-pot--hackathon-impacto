@@ -2,7 +2,7 @@
   <main>
     <div class="container.fluid">
       <div class="acerca-de d-flex justify-content-center align-items-center">
-          <a href="#integrantes" id="equipo"><h1>Nuestro equipo</h1></a>
+          <a href="#integrantes" id="equipo"><h1 v-text="idioma[idiomaSeleccionado].titulo"></h1></a>
       </div>
       <div class="container">
         <div class="row justify-content-center" id="integrantes">
@@ -11,7 +11,7 @@
               <img src="../assets/marfull.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Francisco Marfull</h2>
-                <p class="card-text">Desarrollador Fullstack</p>
+                <p class="card-text" v-text="idioma[idiomaSeleccionado].marfullcard"></p>
               </div>
             </div></a>
           </div>
@@ -20,7 +20,7 @@
               <img src="../assets/ociko.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Fabián Astorga</h2>
-                <p class="card-text">Desarrollador Backend </p>
+                <p class="card-text" v-text="idioma[idiomaSeleccionado].ociko"></p>
               </div>
             </div></a>
           </div>
@@ -29,7 +29,7 @@
               <img src="../assets/alvaro.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Álvaro Morales</h2>
-                <p class="card-text">Analista Programador</p>
+                <p class="card-text" v-text="idioma[idiomaSeleccionado].alvaro"></p>
               </div>
             </div></a>
           </div>
@@ -38,7 +38,7 @@
               <img src="../assets/gustavo.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Gustavo Neira</h2>
-                <p class="card-text">Desarrollador Frontend</p>
+                <p class="card-text" v-text="idioma[idiomaSeleccionado].gustavo"></p>
               </div>
             </div></a>
           </div>
@@ -48,7 +48,7 @@
               <img src="../assets/hasen.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2>Heins Fuenzalida</h2>
-                <p class="card-text">Diseñador</p>
+                <p class="card-text" v-text="idioma[idiomaSeleccionado].hasen"></p>
               </div>
             </div>
             </a>
@@ -67,10 +67,20 @@ export default {
       idiomaSeleccionado: this.$idiomaGlobal,
       idioma: {
         spanish: {
-          titulo: '¿Cómo puedo aportar?'
+          titulo: 'Nuestro equipo',
+          marfullcard: 'Desarrollador Fullstack',
+          ociko: 'Desarrollador Backend',
+          alvaro: 'Analista Programador',
+          gustavo: 'Desarrollador Frontend',
+          hasen: 'Diseñador'
         },
         english: {
-          titulo: 'How can I help?'
+          titulo: 'Meet our team',
+          marfullcard: 'Fullstack Developer',
+          ociko: 'Backend Developer',
+          alvaro: 'Analyst Developer',
+          gustavo: 'Frontend Developer',
+          hasen: 'Designer'
         }
       }
     }

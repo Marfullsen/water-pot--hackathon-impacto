@@ -6,12 +6,8 @@
           <img class="img-cr img-fluid" src="../assets/recycle.jpg" alt="" />
         </div>
         <div class="div-mg col-xl-6">
-          <a class="d-flex justify-content-center" href="#mapa" id="recicla"><h2>Recicla Ya!</h2></a>
-          <p>
-            Si no puedes realizar un aporte monetario no hay problema! Puedes
-            aportar a la causa reciclando. El Water Pot está construido a base
-            de plástico reciclado, así que puedes ayudar mucho y además al medio
-            ambiente solo reciclando.
+          <a class="d-flex justify-content-center" href="#mapa" id="recicla"><h2 v-text="idioma[idiomaSeleccionado].titulo2"></h2></a>
+          <p v-text="idioma[idiomaSeleccionado].p1">
           </p>
         </div>
       </div>
@@ -33,7 +29,7 @@
 
   <section class="contenedorMapa">
     <div class="mapaDiv container" id="mapa">
-      <h2>Puntos de reciclaje cercanos!</h2>
+      <h2 v-text="idioma[idiomaSeleccionado].titulo3"></h2>
       <iframe
         class="mapa col-sm-12 col-md-12 col-lg-8"
         src="https://www.google.com/maps/d/embed?mid=1Y_rRDHYD9VBEVNz2LJIldKU-j4U"
@@ -57,10 +53,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="div-mg col-xl-6">
-            <p>
-              Ya sabes, aportar monetariamente no es la única forma de ayudarnos
-              y además de ayudarnos le haces un gran favor al medio ambiente.
-              Recuerda, el cambio parte por uno mismo.
+            <p v-text="idioma[idiomaSeleccionado].p2">
             </p>
           </div>
           <div class="col-xl-6">
@@ -112,10 +105,18 @@ export default {
       idiomaSeleccionado: this.$idiomaGlobal,
       idioma: {
         spanish: {
-          titulo: '¿Cómo puedo aportar?'
+          titulo: '¿Cómo puedo aportar?',
+          titulo2: 'Recicla Ya!',
+          titulo3: 'Puntos de reciclaje cercanos!',
+          p1: 'Si no puedes realizar un aporte monetario no hay problema! Puedes aportar a la causa reciclando. El Water Pot está construido a base de plástico reciclado, así que puedes ayudar mucho y además al medio ambiente solo reciclando.',
+          p2: 'Ya sabes, aportar monetariamente no es la única forma de ayudarnos y además de ayudarnos le haces un gran favor al medio ambiente. Recuerda, el cambio parte por uno mismo. '
         },
         english: {
-          titulo: 'How can I help?'
+          titulo: 'How can I help?',
+          titulo2: 'Recycle now!',
+          titulo3: 'Recycle spots near you!',
+          p1: 'If you cannot make a monetary contribution, no problem! You can contribute to the cause by recycling. The Water Pot is built from recycled plastic, so you can help us a lot and also the environment just by recycling.',
+          p2: 'You already know, contributing monetarily is not the only way to help us and in addition to helping us you do the environment a great favor. Remember, the change starts with yourself.'
         }
       }
     }
