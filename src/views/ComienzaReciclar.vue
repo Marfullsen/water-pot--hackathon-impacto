@@ -143,13 +143,13 @@ h2 {
   letter-spacing: 1vh;
   text-transform: uppercase;
 }
-h2:hover {
+#recicla:hover {
   transition: all 180ms linear;
   color: #73e2a7;
   text-shadow: 5px 5px 8px #b1cf5f;
   font-size: 4.5vh;
 }
-h2:hover:before {
+#recicla:hover:before {
   transition: all 200ms linear;
   color: #73e2a7;
   text-shadow: 5px 5px 8px #b1cf5f;
