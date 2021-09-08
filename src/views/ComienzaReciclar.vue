@@ -1,12 +1,12 @@
 <template>
   <div class="cont-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
+    <div class="container" id="first-div">
+      <div class="row align-items-center">
+        <div class="col-xl-6">
           <img class="img-cr img-fluid" src="../assets/recycle.jpg" alt="" />
         </div>
-        <div class="div-mg col-lg-6">
-          <a class="d-flex justify-content-center align-items-center" href="#mapa" id="recicla"><h2>Recicla Ya!</h2></a>
+        <div class="div-mg col-xl-6">
+          <a class="d-flex justify-content-center" href="#mapa" id="recicla"><h2>Recicla Ya!</h2></a>
           <p>
             Si no puedes realizar un aporte monetario no hay problema! Puedes
             aportar a la causa reciclando. El Water Pot está construido a base
@@ -55,15 +55,15 @@
     </div>
     <div class="divImagenFinal">
       <div class="container">
-        <div class="row">
-          <div class="div-mg col-lg-6">
+        <div class="row align-items-center">
+          <div class="div-mg col-xl-6">
             <p>
               Ya sabes, aportar monetariamente no es la única forma de ayudarnos
               y además de ayudarnos le haces un gran favor al medio ambiente.
               Recuerda, el cambio parte por uno mismo.
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-xl-6">
             <img
               class="img-cr img-fluid"
               src="../assets/together-1.jpg"
@@ -169,7 +169,6 @@ h2:hover:before {
         border-radius: 5%;
     } */
 .img-cr {
-  margin-top: 15vh;
   width: 60vh;
   border-radius: 5%;
 }
@@ -197,7 +196,12 @@ p {
 #recicla {
   text-decoration: none;
 }
-.div-mg{
-  margin-top: 6vh;
+#first-div{
+  padding-top: 8vh;
 }
+@media (max-width:1200px){
+  .img-cr{
+    padding-bottom: 5vh;
+  }
+  }
 </style>
