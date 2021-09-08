@@ -1,13 +1,13 @@
 <template>
   <main>
       <div class="row">
-        <div class="col-12" id="drought-img">
+        <div class="col-12 d-flex justify-content-center align-items-center" id="drought-img">
         <router-link to="#" id="dona"><h2>Haz tu aporte</h2></router-link>
 
         </div>
       </div>
       <div class="row">
-        <div class="col-12" id="recycle-img">
+        <div class="col-12 d-flex justify-content-center align-items-center" id="recycle-img">
           <router-link to="/comienza_reciclar" id="recicla"><h2>Recicla ya!</h2></router-link>
         </div>
       </div>
@@ -62,7 +62,6 @@ export default {
   h2{
     color: #dcdcdc;
     font-family: 'Russo One', sans-serif;
-    padding-top: 35vh;
     font-size: 11vh;
     font-weight: 700;
     letter-spacing: 4vh;
@@ -83,13 +82,6 @@ export default {
     transition: all 200ms linear;
     color: #dcdcdc;
     text-shadow: 5px 5px 8px #fff;
-  }
-  @media (max-width: 575.98px){
-  h2{
-    font-size: 5vh;
-    letter-spacing: 2vh;
-    padding-top: 65vh;
-  }
   }
   /* #btn1{
     font-size: 3vh;

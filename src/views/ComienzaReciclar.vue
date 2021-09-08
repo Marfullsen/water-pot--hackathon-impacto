@@ -5,8 +5,8 @@
         <div class="col-lg-6">
           <img class="img-cr img-fluid" src="../assets/recycle.jpg" alt="" />
         </div>
-        <div class="col-lg-6">
-          <a href="#mapa" id="recicla"><h2>Recicla Ya!</h2></a>
+        <div class="div-mg col-lg-6">
+          <a class="d-flex justify-content-center align-items-center" href="#mapa" id="recicla"><h2>Recicla Ya!</h2></a>
           <p>
             Si no puedes realizar un aporte monetario no hay problema! Puedes
             aportar a la causa reciclando. El Water Pot está construido a base
@@ -32,10 +32,10 @@
   </div>
 
   <section class="contenedorMapa">
-    <div class="mapaDiv" id="mapa">
+    <div class="mapaDiv container" id="mapa">
       <h2>Puntos de reciclaje cercanos!</h2>
       <iframe
-        class="mapa"
+        class="mapa col-sm-12 col-md-12 col-lg-8"
         src="https://www.google.com/maps/d/embed?mid=1Y_rRDHYD9VBEVNz2LJIldKU-j4U"
         width="640"
         height="480"
@@ -56,7 +56,7 @@
     <div class="divImagenFinal">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="div-mg col-lg-6">
             <p>
               Ya sabes, aportar monetariamente no es la única forma de ayudarnos
               y además de ayudarnos le haces un gran favor al medio ambiente.
@@ -138,7 +138,6 @@ export default {
 h2 {
   color: #73e2a7;
   font-family: "Fredoka One", cursive;
-  padding-top: 9vh;
   font-size: 4vh;
   font-weight: 700;
   letter-spacing: 1vh;
@@ -170,7 +169,7 @@ h2:hover:before {
         border-radius: 5%;
     } */
 .img-cr {
-  padding-top: 13vh;
+  margin-top: 15vh;
   width: 60vh;
   border-radius: 5%;
 }
@@ -190,12 +189,15 @@ p {
 }
 .mapa {
   padding-top: 3vh;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 .divImagenFinal {
   background-color: #1c7c54;
 }
 #recicla {
   text-decoration: none;
+}
+.div-mg{
+  margin-top: 6vh;
 }
 </style>

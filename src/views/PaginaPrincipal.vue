@@ -2,7 +2,7 @@
   <main>
     <div class="container.fluid">
       <div class="row">
-        <div id="bg-index" class="col-12">
+        <div id="bg-index" class="col-12 d-flex justify-content-center align-items-center">
           <a id="wp" href="#producto"><h1>Water Pot</h1></a>
         </div>
         <div class="vc col-lg-8 col-md-12 col-sm-12">
@@ -27,7 +27,7 @@
       <div class="row" id="producto">
         <div class="vc col-lg-8 col-md-12 col-sm-12">
           <h2>Producto</h2>
-          <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado, ubicandose en la base del arbol</p>
+          <p>El Water Pot es un contenedor de agua y fertilizantes, construido a base de plástico reciclado, ubicandose en la base del árbol</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12" id="img-wrap-3">
           <img class="img-index borde-1 img-fluid" src="../assets/slider5.jpg" alt="">
@@ -136,12 +136,12 @@ export default {
   h1{
     color: #F0F0F0;
     font-family: 'Russo One', sans-serif;
-    padding-top: 35vh;
     font-size: 11vh;
     font-weight: 700;
     letter-spacing: 4vh;
     text-transform: uppercase;
     text-shadow: 5px 5px 8px #404040;
+    display: inline;
   }
   #wp{
     text-decoration: none;
