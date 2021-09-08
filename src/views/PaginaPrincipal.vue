@@ -43,12 +43,12 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../assets/slider7.jpg" class="t-wp d-block w-100" alt="...">
+                <img src="../assets/slider7.jpg" class="carous-img t-wp d-block w-100" alt="..." style="height:70vh; width:70vh;" >
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="../assets/slider6.jpg" class="t-wp d-block w-100" alt="...">
+                <img src="../assets/slider6.jpg" class="carous-img st-wp d-block w-100" alt="..." style="height:70vh; width:70vh;" >
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
@@ -217,4 +217,5 @@ export default {
   #img-wrap-2, #img-wrap-3{
     background-color: #b1e775;
   }
+
 </style>

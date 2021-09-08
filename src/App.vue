@@ -34,12 +34,12 @@
       <div class="row">
 
         <div class="col-12" id="categ">
-          <h6>Categorías</h6>
+          <h6>{{idioma[idiomaSeleccionado].categ}}</h6>
           <ul class="footer-links">
-            <li><a class="ft-item" href="/">Inicio</a></li>
-            <li><a class="ft-item" href="/comienza_reciclar">Comienza a reciclar</a></li>
-            <li><a class="ft-item" href="/aportar_ya">Aporta ya!</a></li>
-            <li><a class="ft-item" href="/acerca_de">Acerca de</a></li>
+            <li><a class="ft-item" href="/">{{idioma[idiomaSeleccionado].inicio}}</a></li>
+            <li><a class="ft-item" href="/comienza_reciclar">{{idioma[idiomaSeleccionado].Comienza_a_reciclar}}</a></li>
+            <li><a class="ft-item" href="/aportar_ya">{{idioma[idiomaSeleccionado].Aporta_ya}}</a></li>
+            <li><a class="ft-item" href="/acerca_de">{{idioma[idiomaSeleccionado].Acerca_de}}</a></li>
           </ul>
         </div>
       </div>
@@ -74,13 +74,15 @@ export default {
           inicio: 'Inicio',
           Comienza_a_reciclar: 'Comienza a reciclar',
           Aporta_ya: '¡Aporta ya!',
-          Acerca_de: '¿Quienes somos?'
+          Acerca_de: '¿Quienes somos?',
+          categ: 'Categorías'
         },
         english: {
           inicio: 'Home',
           Comienza_a_reciclar: 'Start Recycling',
           Aporta_ya: 'Contribute',
-          Acerca_de: 'About Us'
+          Acerca_de: 'About Us',
+          categ: 'Categories'
         }
       }
     }
