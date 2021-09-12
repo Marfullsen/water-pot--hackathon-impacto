@@ -9,6 +9,7 @@
 Sitio web que permitirá adquirir el dispositivo para ahorrar agua en cosechas, además de incorporar un llamado a la acción.
 
 
+[![Video-yutup](./docs/img/video-yutup.png)](https://youtu.be/or1wAbNHC1E)
 
 ## ¿Qué paleta se utilizó?
 La paleta está hecha con distintos tonos de verde.
