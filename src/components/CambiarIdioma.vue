@@ -36,9 +36,6 @@ export default {
         this.rutaBandera = this.banderaChile
       }
     }
-  },
-  mounted () {
-    this.idiomaSeleccionado = this.$root.$idiomaGlobal
   }
 }
 </script>

@@ -60,6 +60,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'AcercaDe',
   data () {
@@ -84,14 +85,6 @@ export default {
         }
       }
     }
-  },
-  methods: {
-    onClickChild (value) {
-      this.idiomaSeleccionado = value
-    }
-  },
-  mounted () {
-    this.idiomaSeleccionado = this.$root.$idiomaGlobal
   }
 }
 </script>
