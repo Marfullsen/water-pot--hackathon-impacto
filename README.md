@@ -3,18 +3,26 @@
 [![Vue-Badge2](https://img.shields.io/badge/Vue--CLI-4.5.13-brightgreen.svg)](https://github.com/vuejs/vue)
 [![Vue-Badge3](https://img.shields.io/badge/Vue--router-4.0.11-yellow.svg)](https://github.com/vuejs/vue)
 
-<img src="./docs/img/logo-water-pot.png" width="200" alt="Water-pot-logo">
+<p align="center">
+  <img src="./docs/img/logo-water-pot.png" width="200" alt="Water-pot-logo">
+</p>
 
 ## ¿Qué es esto?
-Sitio web que permitirá adquirir el dispositivo para ahorrar agua en cosechas, además de incorporar un llamado a la acción.
+Sitio web que permitirá adquirir un dispositivo para ahorrar agua en cosechas, además de incorporar un llamado a la acción.
 
+<p align="center">
+  <a href="https://youtu.be/or1wAbNHC1E">
+    <img src="./docs/img/video-yutup.png" alt="Video-yutup">
+  </a>
+</p>
 
-[![Video-yutup](./docs/img/video-yutup.png)](https://youtu.be/or1wAbNHC1E)
+## Sobre el evento
+El proyecto participó en el evento [Hackathon Impacto Chile](https://impactochile-hackathon.com/) <em>"Hack for a sustainable future"</em>, siendo uno de los 15 seleccionados entre más de 50 postulaciones. :sunglasses:	
 
 ## ¿Qué paleta se utilizó?
 La paleta está hecha con distintos tonos de verde.
 
-[![Paleta-colores-verdes](./docs/img/paleta-colores-verdes.png)](https://coolors.co/)
+[![Paleta-colores-verdes](./docs/img/paleta-colores-verdes.png "Paleta de colores")](https://coolors.co/)
 
 ## Instalación del proyecto.
 Comando para instalar todos los paquetes necesarios para iniciar el desarrollo.
@@ -49,29 +57,29 @@ ir a [referencia de configuración](https://cli.vuejs.org/config/) para saber m�
 
 ### Marfullsen
 
-<img src="./docs/img/marfull.png" alt="marfull-drawing">
+<img width="350" height="350 "src="./docs/img/marfull.png" alt="marfull-drawing">
 
 ### Fabián
 
-<img src="./docs/img/ociko.png" alt="ociko-drawing">
+<img width="350" height="350 "src="./docs/img/ociko.png" alt="ociko-drawing">
 
 ### Gustavo
 
-<img src="./docs/img/gustavo.png" alt="gustavo-drawing">
+<img width="350" height="350 "src="./docs/img/gustavo.png" alt="gustavo-drawing">
 
 ### Hasen
 
-<img src="./docs/img/hasen.png" alt="hasen-drawing">
+<img width="350" height="350 "src="./docs/img/hasen.png" alt="hasen-drawing">
 
 ### Álvaro
 
-<img src="./docs/img/alvaro.png" alt="alvaro-drawing">
+<img width="350" height="350 "src="./docs/img/alvaro.png" alt="alvaro-drawing">
 
 ## Mockups
 
-<img src="./docs/img/mockup-001.png" alt="Mockup-inicial">
+<img height="1050" src="./docs/img/mockup-001.png" alt="Mockup-inicial">
 
-<img src="./docs/img/wireframe-alvaro.png" alt="Mockup-alvaro">
+<img height="750" src="./docs/img/wireframe-alvaro.png" alt="Mockup-alvaro">
 
 ## Presentación final
 
@@ -105,7 +113,7 @@ ir a [referencia de configuración](https://cli.vuejs.org/config/) para saber m�
 
 ## Agradecimientos
 - Embajada de finlandia
-- UltraHack
+- [UltraHack](https://ultrahack.org/)
 
 - Claudio Aliaga
 - Juhani Kivikangas
