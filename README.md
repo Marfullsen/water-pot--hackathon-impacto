@@ -57,23 +57,23 @@ ir a [referencia de configuración](https://cli.vuejs.org/config/) para saber m�
 
 ### Marfullsen
 
-<img width="350" height="350 "src="./docs/img/marfull.png" alt="marfull-drawing">
+<img width="350" height="350" src="./docs/img/marfull.png" alt="marfull-drawing">
 
 ### Fabián
 
-<img width="350" height="350 "src="./docs/img/ociko.png" alt="ociko-drawing">
+<img width="350" height="350" src="./docs/img/ociko.png" alt="ociko-drawing">
 
 ### Gustavo
 
-<img width="350" height="350 "src="./docs/img/gustavo.png" alt="gustavo-drawing">
+<img width="350" height="350" src="./docs/img/gustavo.png" alt="gustavo-drawing">
 
 ### Hasen
 
-<img width="350" height="350 "src="./docs/img/hasen.png" alt="hasen-drawing">
+<img width="350" height="350" src="./docs/img/hasen.png" alt="hasen-drawing">
 
 ### Álvaro
 
-<img width="350" height="350 "src="./docs/img/alvaro.png" alt="alvaro-drawing">
+<img width="350" height="350" src="./docs/img/alvaro.png" alt="alvaro-drawing">
 
 ## Mockups
 
@@ -95,7 +95,9 @@ ir a [referencia de configuración](https://cli.vuejs.org/config/) para saber m�
 
 ## Recursos
 - Paletas de colores [coolors.co/](https://coolors.co/)
-- Mockups hechos con draw.io
+- Mockups hechos con [draw.io](https://app.diagrams.net/)
+
+---
 
 - [Guia_para_participantes_del_Impacto_Chile.pptx.pdf](./docs/pdf/Guia_para_participantes_del_Impacto_Chile.pptx.pdf)
 - [Modelos de Negocio Las 55 cartas BMN.pdf](./docs/pdf/Modelos-de-Negocio-Las-55-cartas-BMN.pdf)
